@@ -49,6 +49,7 @@ resources:
 jobs:
   - name: build-dev
     plan:
+      - get: bats
       - get: cpi-release
         resource: aws-cpi
       - task: build-cpi
