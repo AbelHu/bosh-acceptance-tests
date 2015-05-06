@@ -4,6 +4,7 @@ platform: linux
 image: docker:///bosh/bats
 
 inputs:
+- name: bats
 - name: cpi-release
 
 run:
